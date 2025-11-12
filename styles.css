@@ -178,6 +178,27 @@ p[style*="BONO EN TODAS TUS CARGAS"] {
   color: #bbbbbb !important;
 }
 
+/* === LOGO DE ASES === */
+.gn-logo {
+  position: absolute;
+  top: -60%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  width: 180px;
+  max-width: 60%;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.65));
+  pointer-events: none;
+}
+
+@media (max-width: 480px) {
+  .gn-logo {
+    top: -50%;
+    width: 150px;
+  }
+}
+
+
 /* === ACCESIBILIDAD === */
 @media (prefers-reduced-motion: reduce) {
   .gn-btn {
